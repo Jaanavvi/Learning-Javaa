@@ -1,6 +1,6 @@
 public class test {
 
     static void main() {
-        System.out.println("testingggg!!!!");
+        System.out.println("testingggg!!!");
     }
 }
