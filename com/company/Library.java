@@ -30,10 +30,12 @@ public class Library {
                 int z = sc.nextInt();
                 System.out.println("the names of the book ??");
                 String str[] = new String[z];
-                for (int i = 1; i <= z; i++) {
+                for (int i = 0; i < z; i++) {
                     sc.nextLine();
                     str[i] = sc.nextLine();
-                    System.out.print(str[i]);
+
+                    System.out.println(str[i]);
+
                 }
             }
             break;
