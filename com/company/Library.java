@@ -31,9 +31,7 @@ public class Library {
                 System.out.println("the names of the book ??");
                 String str[] = new String[z];
                 for (int i = 0; i < z; i++) {
-                    sc.nextLine();
-                    str[i] = sc.nextLine();
-
+                    str[i] = sc.next();
                     System.out.println(str[i]);
 
                 }
@@ -44,8 +42,8 @@ public class Library {
                 int b = sc.nextInt();
                 System.out.println("can you enter the book name you are returning plss !!");
                 for (int i = 1; i <= b; i++) {
-                    sc.nextLine();
-                    String c = sc.nextLine();
+
+                    String c = sc.next();
                     System.out.println(c);
                 }
                 System.out.println("thank you for returning !!!");
